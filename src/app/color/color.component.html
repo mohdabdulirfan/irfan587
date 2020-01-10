@@ -1,1 +1,8 @@
-<p>color works!</p>
+<!-- <p>color works!</p> -->
+<div class="container mt-5">
+    <h2 class="bg-warning text-center">Showing colors from reqres.in</h2>
+    <div *ngFor="let a of colors">
+        <h3>{{a.data[0].name}}</h3>
+    </div>
+
+</div>
